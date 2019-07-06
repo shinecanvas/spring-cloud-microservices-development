@@ -18,6 +18,8 @@ public class RestConfiguration {
 	@Autowired
 	private RestTemplateBuilder builder;
 
+	@Auto
+
 	@Bean
 	public RestTemplate restTemplate() {
 		return builder.build();
